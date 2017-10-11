@@ -1,0 +1,6 @@
+copy over files
+	bup-autostart.sh to ~
+	bup.desktop to ~/.config/autostart/
+Installation:
+	sudo apt install -y omxplayer
+	omxplayer --loop -n -1 -r FILE.mp4

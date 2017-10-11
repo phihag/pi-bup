@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=bup
+Comment=Starts bup display
+Type=Application
+Exec=¨/bup-autostart.sh
+Terminal=false
