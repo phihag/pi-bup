@@ -2,5 +2,5 @@
 Name=bup
 Comment=Starts bup display
 Type=Application
-Exec=¨/bup-autostart.sh
+Exec=/home/pi/bup-autostart.sh
 Terminal=false
