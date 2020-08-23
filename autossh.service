@@ -1,0 +1,11 @@
+[Unit]
+Description=autossh to s.phihag.de
+After=network.target
+
+[Service]
+User=autossh
+Restart=Always
+ExecStart=/usr/bin/autossh -M 0 -q -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -L 200X:127.0.0.1:22 -i /home/pi/.ssh/id_rsa pi@s.phihag.de
+
+[Install]
+WantedBy=multi-user.target
